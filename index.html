@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <div class="logo-container">
+            <img src="Logowentachnen.png" alt="Owen Logo">
+        </div>
+
+        <div id="rating-section">
+            <h1>Cảm ơn bạn đã lựa chọn Owen!</h1>
+            <p>Trải nghiệm của bạn trong thời gian vừa qua như thế nào?</p>
+            <div class="star-rating">
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
+            </div>
+        </div>
+
+        <div id="happy-feedback-section" class="hidden">
+            <h2>Tuyệt vời! Owen rất vui khi bạn đã có một trải nghiệm tốt.</h2>
+            <p>Nếu có thể, bạn vui lòng chia sẻ cảm nhận tích cực này đến với mọi người nhé!</p>
+            <div class="social-links">
+                <a href="#" class="social-btn google">Đánh giá trên Google Maps</a>
+                <a href="#" class="social-btn website">Đánh giá trên Website Owen</a>
+                <a href="#" class="social-btn facebook">Chia sẻ lên Facebook</a>
+            </div>
+        </div>
+
+        <div id="unhappy-feedback-section" class="hidden">
+            <h2>Chúng tôi thành thật xin lỗi!</h2>
+            <p>Vui lòng cho Owen biết cụ thể vấn đề bạn gặp phải để chúng tôi có thể cải thiện dịch vụ tốt hơn. Mọi phản hồi của bạn đều được bảo mật.</p>
+            <form id="feedback-form">
+                <textarea name="feedback_issue" placeholder="Điều gì làm bạn chưa hài lòng?" required></textarea>
+                <textarea name="feedback_suggestion" placeholder="Owen có thể làm gì để tốt hơn?"></textarea>
+                <input type="text" name="contact_info" placeholder="Số điện thoại/Email (Không bắt buộc)">
+                <button type="submit">Gửi phản hồi</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
